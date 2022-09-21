@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400&display=swap');
+:root{
+    --primary-color:purple;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/**containers**/
+.container{
+    padding-left : 1rem;
+    padding-right : 1rem;
+}
+.center-container{
+    max-width:600px;
+    margin:auto;
+}
+
+/**links**/
+
+.link{
+    text-decoration:none;
+    padding:0.5rem 1rem;
+}
+.link-primary{
+    background-color:var(--primary-color);
+    border-radius:0.5rem;
+    color:white;
+}
+.link-secondary{
+    background-color:var(--primary-color);
+    border-radius:0.5rem;
+    color:white;
+}
+/**lists**/
+.non-bullet{
+    list-style:none;
+}
+.item-inline{
+    display:inline;
+    padding: 0rem 0.5rem;
+}
+/**navigation**/
+.navigation{
+    background-color:var(--primary-color);
+    color:white;
+    border-bottom-left-radius:1rem;
+    padding:1rem;
+}
+.link{
+    color:white;
+    padding:0rem 1rem
+}
+.navigation .nav-pills{
+    text-align:right;
+
+}
+.navigation .nav-brand{
+    font-weight:bold;
+    font-size:1.1rem;
+}
+.navigation .link-active{
+    font-weight:bold;
+}
+/**header**/
+.hero{
+    padding:2rem;
+    text-align:center;
+}
+.hero .hero-image{
+    max-width:350px;
+    display:block;
+    margin:auto;
+}
+.hero .heading{
+    padding-top:1rem;
+    color:grey;
+}
+.hero .heading .last{
+    font-weight:bold;
+    color:brown
+}
+/**section**/
+.section{
+    padding:2rem;
+    text-align:center;
+
+}
+
+.ow{
+    background-color:whitesmoke;
+}
+.footer{
+    background-color: var(--primary-color);
+    color:white;
+    padding:1rem;
+    text-align:center;
+}
