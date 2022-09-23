@@ -19,7 +19,7 @@ body{
 
 .link{
     text-decoration:none;
-    padding:0.5rem 1rem;
+    padding:1.5rem 1rem;
 }
 .link-primary{
     background-color:var(--primary-color);
